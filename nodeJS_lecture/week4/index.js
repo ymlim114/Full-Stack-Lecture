@@ -37,11 +37,11 @@ app.get('/sound/:name', (req, res) => {
     console.log(name)
 
     if(name == "dog") {
-        res.json({'sound': '멍멍!!!'})
+        res.json({'sound': '멍멍!'})
     } else if (name == "cat") {
-        res.json({'sound': '야옹!!!'})
+        res.json({'sound': '야옹!'})
     } else if (name == "pig") {
-        res.json({'sound': '꿀꿀!!!'})
+        res.json({'sound': '꿀꿀!'})
     } else {
         res.json({'sound': '알 수 없는 동물입니다.'})
     }
