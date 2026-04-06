@@ -1,0 +1,13 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "target": "ES6",         // javascript 최신버전의 문법
+    "module": "commonjs",       // Node.js 실행 환경에 맞춤
+    "outDir": "./dist",         // 컴파일된 JS 파일 출력 위치
+    "strict": true,             // 엄격한 타입 검사
+    "esModuleInterop": true,    // import/export 호환성 설정
+    "skipLibCheck": true        // 라이브러리 타입 검사 생략(속도 Up)
+  },
+  "include": ["./**/*.ts"],     // 프로젝트 내 모든 TS 파일 포함
+  "exclude": ["node_modules"]   // node_modules 폴더 제외
+}

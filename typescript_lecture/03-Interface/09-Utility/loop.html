@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>자바스크립트 반복문 구식/신식</h1>
+    <h2>10보다 큰 숫자만 골라내기</h2>
+    <h3>구식</h3>
+    <script>
+        var numbers = [5, 12, 8, 130, 44];
+        var filtered = [];
+        for (var i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 10) {
+                filtered.push(numbers[i]);
+            }
+        }
+        console.log(filtered);
+    </script>
+    <h3>신식</h3>
+    <script>
+        // var filteredNew = numbers.filter(function (num) {
+        //     return num > 10;
+        // });
+        let filteredNew = numbers.filter(num => num > 10);
+        console.log(filteredNew);
+    </script>
+</body>
+</html>
