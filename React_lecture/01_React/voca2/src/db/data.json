@@ -1,60 +1,94 @@
 {
-    "days": [
-        {
-            "id": 1,
-            "day": 1
-        },
-        {
-            "id": 2,
-            "day": 2
-        },
-        {
-            "id": 3,
-            "day": 3
-        }
-    ],
-    "words": [
-        {
-            "id": 1,
-            "day": 1,
-            "eng": "book",
-            "kor": "책",
-            "isDone": false
-        },
-        {
-            "id": 2,
-            "day": 1,
-            "eng": "apple",
-            "kor": "사과",
-            "isDone": false
-        },
-        {
-            "id": 3,
-            "day": 2,
-            "eng": "car",
-            "kor": "자동차",
-            "isDone": false
-        },
-        {
-            "id": 4,
-            "day": 2,
-            "eng": "pen",
-            "kor": "펜",
-            "isDone": false
-        },
-        {
-            "id": 5,
-            "day": 3,
-            "eng": "school",
-            "kor": "학교",
-            "isDone": false
-        },
-        {
-            "id": 6,
-            "day": 3,
-            "eng": "pencil",
-            "kor": "연필",
-            "isDone": false
-        }
-    ]
+  "days": [
+    {
+      "id": "1",
+      "day": 1
+    },
+    {
+      "id": "2",
+      "day": 2
+    },
+    {
+      "id": "3",
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": "v077Th82PN4"
+    },
+    {
+      "day": 5,
+      "id": "9hkHzXrsT5o"
+    },
+    {
+      "day": 6,
+      "id": "8Tp_BwSIYus"
+    }
+  ],
+  "words": [
+    {
+      "id": "1",
+      "day": 1,
+      "eng": "book",
+      "kor": "책",
+      "isDone": true
+    },
+    {
+      "id": "2",
+      "day": 1,
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
+    },
+    {
+      "id": "4",
+      "day": 2,
+      "eng": "pen",
+      "kor": "펜",
+      "isDone": false
+    },
+    {
+      "id": "5",
+      "day": 3,
+      "eng": "school",
+      "kor": "학교",
+      "isDone": false
+    },
+    {
+      "id": "6",
+      "day": 3,
+      "eng": "pencil",
+      "kor": "연필",
+      "isDone": false
+    },
+    {
+      "id": "8",
+      "day": 3,
+      "eng": "car",
+      "kor": "자동차",
+      "isDone": false
+    },
+    {
+      "day": 3,
+      "eng": "window",
+      "kor": "창",
+      "isDone": false,
+      "id": "mPZfAwt8gjg"
+    },
+    {
+      "day": 4,
+      "eng": "monkey",
+      "kor": "원숭이",
+      "isDone": false,
+      "id": "jZ5jRp_u5VQ"
+    },
+    {
+      "day": 5,
+      "eng": "Phone",
+      "kor": "휴대폰",
+      "isDone": false,
+      "id": "mD8dHqFFNew"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
